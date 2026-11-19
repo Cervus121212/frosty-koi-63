@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launch Radar — pre-token protocols ranked by expected value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="title-block">
+    <h1>Launch Radar</h1>
+    <p class="subtitle">Every pre-token protocol in the 14 Nov 2026 snapshot, ranked by <strong>expected
+    value</strong> — what its token would be worth if it launched, times the odds it launches
+    within 2 years. The odds come from the snapshot's own listing dates, not from a guess.</p>
+    <p class="meta" id="meta-line"></p>
+  </div>
+  <div class="kpi" id="kpi-strip"></div>
+</header>
+
+<main>
+  <section class="cover" id="cover">
+    <h2>The model, on the cover</h2>
+    <div class="cover-grid">
+      <div class="cover-formula" id="cover-formula"></div>
+      <div class="cover-scatter">
+        <h3>Fit scatter — the 128 traded comps</h3>
+        <div id="scatter"></div>
+        <p class="note" id="scatter-note"></p>
+      </div>
+      <div class="cover-ablation">
+        <h3>Ablation — each piece earns its place</h3>
+        <table id="ablation-table">
+          <thead><tr><th>Step</th><th>Error factor</th><th>Within 3x</th></tr></thead>
+          <tbody id="ablation-body"></tbody>
+        </table>
+        <p class="note">Leave-one-out. The curve alone is the single biggest win; the grouped
+        medians add within-3x accuracy; the ridge blend wins walk-forward. Full table below.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="toolbar" aria-label="Board controls">
+    <input id="q" type="search" placeholder="Search name or slug…" aria-label="Search">
+    <select id="cat" aria-label="Category filter"><option value="">All categories</option></select>
+    <select id="verdict" aria-label="Verdict filter">
+      <option value="">All verdicts</option>
+      <option value="Farm">Farm</option>
+      <option value="Thin">Thin</option>
+      <option value="Skip">Skip</option>
+    </select>
+    <label class="check"><input id="watch" type="checkbox"> Watchlist only</label>
+    <span class="count" id="row-count"></span>
+  </section>
+
+  <section class="board-wrap">
+    <table id="board">
+      <thead><tr>
+        <th data-sort="rank">Rank</th>
+        <th data-sort="name">Protocol</th>
+        <th data-sort="category">Category</th>
+        <th data-sort="tvl_usd">TVL</th>
+        <th data-sort="conditional_value_usd">If launches</th>
+        <th data-sort="launch_p">Launch odds</th>
+        <th data-sort="implied_value_usd">Expected value</th>
+        <th data-sort="expected_net_usd">Exp. net $</th>
+        <th data-sort="break_even_p">Break-even</th>
+        <th data-sort="verdict">Verdict</th>
+      </tr></thead>
+      <tbody id="board-body"></tbody>
+    </table>
+  </section>
+
+  <section id="detail" class="detail" hidden>
+    <button id="detail-close" type="button">Close ×</button>
+    <div id="detail-body"></div>
+  </section>
+
+  <section class="method" id="method">
+    <h2>How the value is fitted — and how the odds are fitted</h2>
+    <div id="method-body"></div>
+  </section>
+
+  <section class="comps">
+    <h2>The comps: traded tokens the model learns from</h2>
+    <p class="note">The 24 largest traded tokens by market cap. The full fit uses all 128
+    protocols with a positive market cap and TVL.</p>
+    <table id="comps-table">
+      <thead><tr><th>Protocol</th><th>Category</th><th>TVL</th><th>Market cap</th><th>mcap / TVL</th></tr></thead>
+      <tbody id="comps-body"></tbody>
+    </table>
+  </section>
+
+  <section class="audit">
+    <h2>Coverage audit</h2>
+    <div id="audit-body"></div>
+    <p class="note">The full method, with every number this run computed, is in
+    <a href="00-proof.md">00-proof.md</a> — the proof file.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Launch Radar v4. Snapshot sealed 14 Nov 2026, source DefiLlama. Model fitted at run
+  time from the snapshot itself; validation numbers measured by research/validate.py on
+  the same snapshot. A launch is never a prediction — the value is what the market
+  pays for comparable TVL today, the odds are how fast protocols of that age have turned
+  token-bearing so far, and the farm math is what that is worth to one farmer.</p>
+</footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

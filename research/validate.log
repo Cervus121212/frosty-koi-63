@@ -1,0 +1,35 @@
+CENSUS: {'pre_token': 342, 'has_token': 416, 'staking_product': 51, 'versioned_name': 11, 'bridge': 44, 'exchange': 42, 'wrapped_btc': 4, 'wrapped_name': 2, 'wrapped_stablecoin': 2, 'ranked': 186, 'watchlist_total': 40, 'watchlist_ranked': 37, 'watchlist_screened': ['b14g', 'reti-pooling', 'saturn'], 'ranked_above_floor': 55, 'ranked_below_floor': 131}
+watchlist screened (must be []): ['b14g', 'reti-pooling', 'saturn']
+comps p128: 128 | p109: 109
+--- validating variants (this takes a while) ---
+  starter flat x0.25               CV 1.5914 WF70 None WF60 None blind None LOO None boot None
+  global median multiple           CV 1.5816 WF70 None WF60 None blind None LOO None boot None
+  r3-family p128 blend 0.8         CV 1.295 WF70 1.059 WF60 1.1301 blind 1.569 LOO 1.3061 boot 1.2769
+  r3-family p128 grouped k=5       CV 1.2881 WF70 1.0723 WF60 1.1391 blind 1.394 LOO 1.3266 boot 1.2664
+  r3-family p128 curve only        CV 1.2434 WF70 1.2271 WF60 1.0575 blind 1.4195 LOO 1.2234 boot 1.2957
+  r3-family p128 ridge only        CV 1.352 WF70 1.1051 WF60 1.3582 blind 1.5854 LOO 1.3892 boot 1.4148
+  r3-family p128 blend 0.8 k=3     CV 1.3049 WF70 None WF60 None blind None LOO None boot None
+  r3-family p128 blend 0.8 k=10    CV 1.2887 WF70 None WF60 None blind None LOO None boot None
+  r3-family p128 blend 0.6         CV 1.3081 WF70 None WF60 None blind None LOO None boot None
+  r3-family p128 blend 0.7         CV 1.3075 WF70 None WF60 None blind None LOO None boot None
+  r3-family p128 blend 0.9         CV 1.2977 WF70 None WF60 None blind None LOO None boot None
+  r3-family p128 blend 1.0         CV 1.2881 WF70 None WF60 None blind None LOO None boot None
+  age-curve p128 blend 0.8         CV 1.3117 WF70 1.4598 WF60 1.2562 blind 1.5636 LOO 1.3379 boot 1.3031
+  age-curve p128 grouped           CV 1.3065 WF70 1.6419 WF60 1.3053 blind 1.3895 LOO 1.3936 boot 1.2885
+  age-curve p128 curve only        CV 1.2969 WF70 1.6964 WF60 1.2683 blind 1.4242 LOO 1.2711 boot 1.2959
+  r3-family p109 blend 0.8         CV 1.0718 WF70 0.9373 WF60 0.9059 blind 1.066 LOO 1.028 boot 1.1203
+  r3-family p109 grouped           CV 1.0521 WF70 1.0449 WF60 0.983 blind 1.1817 LOO 1.0924 boot 1.1137
+  r3-family p109 curve only        CV 1.1489 WF70 0.8958 WF60 0.993 blind 1.2667 LOO 1.1235 boot 1.1722
+  age-curve p109 blend 0.8         CV 1.0906 WF70 1.112 WF60 0.8589 blind 1.1216 LOO 1.0515 boot 1.1333
+--- launch odds ---
+  hazards: [0.9434, 0.05, 0.05, 0.8168, 0.189, 0.05] | loglik: -414.4 | weibull: {'k': 0.5, 'theta': 3.1, 'loglik': -416.23}
+  random holdout: {'n_train': 419, 'n_test': 226, 'base_rate': 0.4779, 'majority_rate': 0.5221, 'hit_rate': 0.6814, 'brier': 0.2201, 'base_brier': 0.2515, 'mean_predicted': 0.5398, 'observed': 0.4779, 'calibration': [{'lo': 0, 'hi': 0.5, 'n': 27, 'predicted': 0.206, 'observed': 0.2222}, {'lo': 0.5, 'hi': 1, 'n': 23, 'predicted': 0.4041, 'observed': 0.3478}, {'lo': 1, 'hi': 2, 'n': 67, 'predicted': 0.4, 'observed': 0.3881}, {'lo': 2, 'hi': 3, 'n': 44, 'predicted': 0.5637, 'observed': 0.5227}, {'lo': 3, 'hi': 5, 'n': 60, 'predicted': 0.8456, 'observed': 0.7}, {'lo': 5, 'hi': 99, 'n': 5, 'predicted': 0.9588, 'observed': 0.6}]}
+  time holdout: {'n_train': 324, 'n_test': 321, 'base_rate': 0.3583, 'majority_rate': 0.6417, 'hit_rate': 0.6417, 'brier': 0.2786, 'base_brier': 0.3176, 'mean_predicted': 0.1292, 'observed': 0.3583, 'calibration': [{'lo': 0, 'hi': 0.5, 'n': 88, 'predicted': 0.0126, 'observed': 0.2614}, {'lo': 0.5, 'hi': 1, 'n': 73, 'predicted': 0.0706, 'observed': 0.3973}, {'lo': 1, 'hi': 2, 'n': 160, 'predicted': 0.22, 'observed': 0.3937}, {'lo': 2, 'hi': 3, 'n': 0, 'predicted': 0, 'observed': 0}, {'lo': 3, 'hi': 5, 'n': 0, 'predicted': 0, 'observed': 0}, {'lo': 5, 'hi': 99, 'n': 0, 'predicted': 0, 'observed': 0}], 'cut': '2025-01-06'}
+--- ablation (LOO, p128) ---
+  {'step': 'flat multiple TVL x 0.25 (starter)', 'geo': 4.91, 'within3': 0.336}
+  {'step': 'global median multiple', 'geo': 4.86, 'within3': 0.352}
+  {'step': 'log-log curve only', 'geo': 3.4, 'within3': 0.422}
+  {'step': 'curve + grouped shrunk medians', 'geo': 3.77, 'within3': 0.445}
+  {'step': 'curve + grouped + ridge-LAD blend 0.8/0.2 (this entry)', 'geo': 3.69, 'within3': 0.438}
+  {'step': 'ridge-LAD only', 'geo': 4.01, 'within3': 0.414}
+wrote /home/hatch/workspace/makefun/token-radar-01-radar4/research/validation-results.json

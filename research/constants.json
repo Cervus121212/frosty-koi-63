@@ -1,0 +1,1111 @@
+{
+ "value": {
+  "curve_a": 6.964566507914791,
+  "curve_s": 0.5222655487661857,
+  "global_median_resid": 0.0726034114816807,
+  "group_offsets": {
+   "Lending": -0.20285917583267568,
+   "Bridge": 0.6777261922897614,
+   "Dexs": 0.08837404766121354,
+   "Staking": -0.7320495284016404,
+   "Risk Curators": 0.3778136566797371,
+   "Chain": 0.39552869823196596,
+   "Yield": -0.23894729290442265,
+   "CEX": 0.7183722797461397,
+   "Basis Trading": 0.3845443013430219,
+   "NFT Marketplace": 0.29516194693087155,
+   "RWA": 0.304339005765852,
+   "AI": 0.22702482337442953,
+   "Onchain Capital Allocator": -0.39569609585617027,
+   "Indexes": -0.3887728123141273,
+   "Token Locker": 0.4041769714166858,
+   "Dual-Token Stablecoin": -0.2271945526975994,
+   "Derivatives": 0.4327157848627039,
+   "Options": 0.2361008670311695,
+   "Launchpad": 0.05313806063345158,
+   "Privacy": 0.7352725406967543,
+   "Prediction Market": 1.1488326093987107,
+   "Payments": -0.2874620428803045,
+   "DOR": -0.08666937515605061
+  },
+  "group_sizes": {
+   "Lending": 19,
+   "Bridge": 18,
+   "Dexs": 12,
+   "Staking": 15,
+   "Risk Curators": 1,
+   "Chain": 1,
+   "Yield": 14,
+   "CEX": 9,
+   "Basis Trading": 7,
+   "NFT Marketplace": 1,
+   "RWA": 9,
+   "AI": 3,
+   "Onchain Capital Allocator": 2,
+   "Indexes": 3,
+   "Token Locker": 2,
+   "Dual-Token Stablecoin": 1,
+   "Derivatives": 2,
+   "Options": 1,
+   "Launchpad": 1,
+   "Privacy": 3,
+   "Prediction Market": 1,
+   "Payments": 2,
+   "DOR": 1
+  },
+  "ridge_chains": [
+   "Ethereum",
+   "Arbitrum",
+   "Binance",
+   "Base",
+   "Polygon"
+  ],
+  "ridge_mean": [
+   17.70947028338337,
+   -0.0918962109375,
+   6.51934278409081,
+   7.4140625,
+   0.7109375,
+   0.3515625,
+   0.3046875,
+   0.296875,
+   0.2734375
+  ],
+  "ridge_sd": [
+   1.950654571339186,
+   0.08005141693025454,
+   0.6883263362334493,
+   17.622130681222796,
+   0.45332700238762524,
+   0.4774581747061726,
+   0.46027494755173237,
+   0.4568809849129202,
+   0.44572349454987226
+  ],
+  "ridge_beta": [
+   16.331346107810468,
+   0.7635690157587751,
+   -0.018259656020401152,
+   0.02027235008439132,
+   0.2435145727093554,
+   -0.0377437889771612,
+   0.2902618801263431,
+   0.1206529411763885,
+   -0.18719275965085358,
+   -0.1077555210647468
+  ],
+  "shrink_k": 5,
+  "blend_grouped": 0.8,
+  "blend_ridge": 0.2,
+  "ridge_lambda": 10.0,
+  "ridge_rounds": 40,
+  "n_comps": 128
+ },
+ "odds": {
+  "edges": [
+   0,
+   0.5,
+   1,
+   2,
+   3,
+   5
+  ],
+  "hazards": [
+   0.9434,
+   0.05,
+   0.05,
+   0.8168,
+   0.189,
+   0.05
+  ],
+  "cat_mults": {
+   "Leveraged Farming": 1.1655,
+   "Uncollateralized Lending": 0.883,
+   "Risk Curators": 0.5247,
+   "Lending": 1.3135,
+   "Cross Chain Bridge": 1.1946,
+   "Canonical Bridge": 1.1156,
+   "Staking Pool": 0.8645,
+   "Basis Trading": 1.3708,
+   "Onchain Capital Allocator": 0.7307,
+   "Dexs": 1.326,
+   "Launchpad": 1.2132,
+   "Derivatives": 0.9486,
+   "Yield": 1.1461,
+   "Farm": 0.9091,
+   "Synthetics": 1.202,
+   "RWA": 1.0512,
+   "Collateral Management": 1.173,
+   "Liquidity Manager": 0.9651,
+   "Chain": 0.8301,
+   "Bridge": 0.8796,
+   "Anchor BTC": 1.05,
+   "Restaking": 1.2726,
+   "Liquid Restaking": 1.0276,
+   "Liquid Staking": 0.8425,
+   "CEX": 0.5075,
+   "CDP": 0.9265,
+   "NFT Marketplace": 1.0575,
+   "Interest Rate Derivatives": 0.8824,
+   "Decentralized BTC": 0.8432,
+   "Decentralized AI": 1.1818,
+   "Yield Aggregator": 0.8674,
+   "Options": 1.3066,
+   "CeDeFi": 0.8915,
+   "Crypto Card Issuer": 1.1755,
+   "OTC Marketplace": 0.8822,
+   "Insurance": 0.8851,
+   "Token Locker": 1.2185,
+   "Dual-Token Stablecoin": 0.822,
+   "Restaked BTC": 0.9169,
+   "Stablecoin Issuer": 1.1567,
+   "Governance Incentives": 0.9638,
+   "AI Agents": 1.2391,
+   "Prediction Market": 0.848,
+   "Privacy": 1.0858,
+   "Options Vault": 0.8819,
+   "Stablecoin Wrapper": 0.8138,
+   "Indexes": 1.1708,
+   "Payments": 1.0866,
+   "CDP Manager": 1.0642,
+   "Collateral Markets": 0.8354,
+   "Reserve Currency": 1.0494,
+   "DOR": 1.1432
+  },
+  "floor": 0.05,
+  "cap": 5.0,
+  "undated_days": 365,
+  "horizon_years": 2,
+  "n_dated": 645,
+  "n_token": 327,
+  "loglik": -414.4,
+  "weibull": {
+   "k": 0.5,
+   "theta": 3.1,
+   "loglik": -416.23
+  }
+ },
+ "loo": [
+  {
+   "ln_tvl": 18.325485739515102,
+   "err": 5.085146425729356
+  },
+  {
+   "ln_tvl": 16.447252480834287,
+   "err": 1.316240251735639
+  },
+  {
+   "ln_tvl": 16.16970089668399,
+   "err": -3.669303925152926
+  },
+  {
+   "ln_tvl": 16.853132431944474,
+   "err": 2.1726011495708626
+  },
+  {
+   "ln_tvl": 16.39004788055629,
+   "err": 3.6148192197403866
+  },
+  {
+   "ln_tvl": 16.28159713259361,
+   "err": 1.938092869271605
+  },
+  {
+   "ln_tvl": 17.43108482914144,
+   "err": 0.09742154488444044
+  },
+  {
+   "ln_tvl": 16.46800555351871,
+   "err": 1.9429935322085115
+  },
+  {
+   "ln_tvl": 15.886585194510504,
+   "err": -1.0031853058383824
+  },
+  {
+   "ln_tvl": 17.80370911092402,
+   "err": -0.3101891117036182
+  },
+  {
+   "ln_tvl": 21.749331415287802,
+   "err": 0.07106594332590888
+  },
+  {
+   "ln_tvl": 19.976599646931742,
+   "err": 1.4167503207194656
+  },
+  {
+   "ln_tvl": 16.18116406076157,
+   "err": 0.07973014808681711
+  },
+  {
+   "ln_tvl": 18.295600918860664,
+   "err": -1.232498284356888
+  },
+  {
+   "ln_tvl": 16.286012371136767,
+   "err": -2.4152445909300813
+  },
+  {
+   "ln_tvl": 18.369471667071053,
+   "err": 0.02202422309091645
+  },
+  {
+   "ln_tvl": 18.31351626880427,
+   "err": -3.949581281428607
+  },
+  {
+   "ln_tvl": 15.909456894646986,
+   "err": -3.726035594581349
+  },
+  {
+   "ln_tvl": 17.451449256107598,
+   "err": -2.1838168923611114
+  },
+  {
+   "ln_tvl": 20.92152364364146,
+   "err": -1.3213995102251381
+  },
+  {
+   "ln_tvl": 17.32465712179404,
+   "err": 4.620191769527125
+  },
+  {
+   "ln_tvl": 16.072773127567114,
+   "err": 1.341266382106948
+  },
+  {
+   "ln_tvl": 17.566091418659674,
+   "err": -0.731535752040342
+  },
+  {
+   "ln_tvl": 18.889258838856666,
+   "err": 2.409470063379935
+  },
+  {
+   "ln_tvl": 16.217273070614564,
+   "err": 0.6768494533846923
+  },
+  {
+   "ln_tvl": 17.520717588766214,
+   "err": 2.1076553210842803
+  },
+  {
+   "ln_tvl": 17.937050841287547,
+   "err": -4.921269747640919
+  },
+  {
+   "ln_tvl": 20.8167432646498,
+   "err": -0.7974708529468799
+  },
+  {
+   "ln_tvl": 19.95096238204812,
+   "err": 1.7048768068354754
+  },
+  {
+   "ln_tvl": 16.65069548658148,
+   "err": -0.7346336693359472
+  },
+  {
+   "ln_tvl": 18.669512119786305,
+   "err": -0.510241434897214
+  },
+  {
+   "ln_tvl": 22.313242365582145,
+   "err": 1.0384337842285873
+  },
+  {
+   "ln_tvl": 16.934724488036583,
+   "err": -0.05521058204587348
+  },
+  {
+   "ln_tvl": 18.19139108143186,
+   "err": -1.5143985488036709
+  },
+  {
+   "ln_tvl": 15.943331346065074,
+   "err": 0.8095787567273067
+  },
+  {
+   "ln_tvl": 15.764615882718983,
+   "err": 0.8167211860215602
+  },
+  {
+   "ln_tvl": 16.220210535248352,
+   "err": -2.2467362093596197
+  },
+  {
+   "ln_tvl": 16.384306124655545,
+   "err": -2.0627085833136487
+  },
+  {
+   "ln_tvl": 21.166480836695396,
+   "err": 1.4643242920549788
+  },
+  {
+   "ln_tvl": 16.12264409110334,
+   "err": 3.7239476489150007
+  },
+  {
+   "ln_tvl": 16.125839886806034,
+   "err": 2.5747709833707013
+  },
+  {
+   "ln_tvl": 17.72709226603506,
+   "err": -0.03569499904773643
+  },
+  {
+   "ln_tvl": 15.773500452228195,
+   "err": -0.168698728933105
+  },
+  {
+   "ln_tvl": 18.195258423214185,
+   "err": -1.7741804420658678
+  },
+  {
+   "ln_tvl": 15.607155187265144,
+   "err": 0.4500462884895047
+  },
+  {
+   "ln_tvl": 22.42044953332732,
+   "err": 1.4511258675513226
+  },
+  {
+   "ln_tvl": 16.793403349989838,
+   "err": -0.8079823304438314
+  },
+  {
+   "ln_tvl": 15.613997182392533,
+   "err": -5.122046446628142
+  },
+  {
+   "ln_tvl": 20.82356687530738,
+   "err": -1.9743980552757616
+  },
+  {
+   "ln_tvl": 15.475283916195396,
+   "err": -1.6938555895424834
+  },
+  {
+   "ln_tvl": 16.487208344409268,
+   "err": -0.4416095229765826
+  },
+  {
+   "ln_tvl": 15.914835360944183,
+   "err": 0.8811894786358856
+  },
+  {
+   "ln_tvl": 16.08299817755669,
+   "err": 0.3429479485515632
+  },
+  {
+   "ln_tvl": 19.726588818173802,
+   "err": -1.0591582362488872
+  },
+  {
+   "ln_tvl": 16.853846853284374,
+   "err": 1.5885394446853027
+  },
+  {
+   "ln_tvl": 18.004839762160525,
+   "err": -0.6224578925649951
+  },
+  {
+   "ln_tvl": 16.158673519682296,
+   "err": -1.3980638965948042
+  },
+  {
+   "ln_tvl": 16.24992841422851,
+   "err": -2.1744366269863296
+  },
+  {
+   "ln_tvl": 17.120824522219486,
+   "err": 0.04590417368513222
+  },
+  {
+   "ln_tvl": 17.361009417772507,
+   "err": 0.3528039923014994
+  },
+  {
+   "ln_tvl": 15.802202563591468,
+   "err": -4.138906258981365
+  },
+  {
+   "ln_tvl": 17.03659150975202,
+   "err": -3.1793603948224085
+  },
+  {
+   "ln_tvl": 16.144308278472174,
+   "err": -2.7540002230050202
+  },
+  {
+   "ln_tvl": 23.65294053704017,
+   "err": 0.8352032877960198
+  },
+  {
+   "ln_tvl": 15.942663348660519,
+   "err": -0.022369702471786823
+  },
+  {
+   "ln_tvl": 15.433931600990865,
+   "err": 0.6191755475788057
+  },
+  {
+   "ln_tvl": 15.520781059177912,
+   "err": 0.1883538871419539
+  },
+  {
+   "ln_tvl": 16.80541568663894,
+   "err": 0.8296281909705527
+  },
+  {
+   "ln_tvl": 18.333065391879227,
+   "err": 4.166927616082869
+  },
+  {
+   "ln_tvl": 19.674129759920483,
+   "err": -0.3965431044794592
+  },
+  {
+   "ln_tvl": 15.802852024436365,
+   "err": -3.410604444340045
+  },
+  {
+   "ln_tvl": 17.123907986565044,
+   "err": 0.3206438802729732
+  },
+  {
+   "ln_tvl": 19.936317660191445,
+   "err": -2.431269911977182
+  },
+  {
+   "ln_tvl": 22.07076637978044,
+   "err": -0.4851253499606898
+  },
+  {
+   "ln_tvl": 15.840703257715134,
+   "err": 0.22282631999209102
+  },
+  {
+   "ln_tvl": 16.134806149607172,
+   "err": 4.628915503295445
+  },
+  {
+   "ln_tvl": 20.85985700642569,
+   "err": -3.8441376103547764
+  },
+  {
+   "ln_tvl": 23.993754437826475,
+   "err": 1.8303143849472896
+  },
+  {
+   "ln_tvl": 15.890020835924446,
+   "err": 1.6669000689552007
+  },
+  {
+   "ln_tvl": 18.74708156946192,
+   "err": -0.07155784141084354
+  },
+  {
+   "ln_tvl": 21.663806321997328,
+   "err": 2.2073810222782377
+  },
+  {
+   "ln_tvl": 20.974651913327197,
+   "err": -0.6043268805850026
+  },
+  {
+   "ln_tvl": 16.970253411448486,
+   "err": 1.157878066603331
+  },
+  {
+   "ln_tvl": 17.54656910931786,
+   "err": -1.6360970401678898
+  },
+  {
+   "ln_tvl": 18.494887328386593,
+   "err": 1.5882882554667823
+  },
+  {
+   "ln_tvl": 15.704476589544264,
+   "err": 6.472027542801051
+  },
+  {
+   "ln_tvl": 20.004926768679013,
+   "err": -0.07125023629739502
+  },
+  {
+   "ln_tvl": 18.26901541807273,
+   "err": 1.2538473224050684
+  },
+  {
+   "ln_tvl": 17.58316891379301,
+   "err": 2.3420694316159576
+  },
+  {
+   "ln_tvl": 18.333944787212914,
+   "err": -3.0139668618363196
+  },
+  {
+   "ln_tvl": 15.621379025521088,
+   "err": 0.2925369996972549
+  },
+  {
+   "ln_tvl": 17.57625191728243,
+   "err": -1.8099384961150875
+  },
+  {
+   "ln_tvl": 20.65166052099608,
+   "err": 0.1697806275246485
+  },
+  {
+   "ln_tvl": 17.435925929329276,
+   "err": 1.629949558158918
+  },
+  {
+   "ln_tvl": 16.520862789484116,
+   "err": -1.4876045423609927
+  },
+  {
+   "ln_tvl": 15.982013808700394,
+   "err": -0.11795919895656937
+  },
+  {
+   "ln_tvl": 19.1188878464884,
+   "err": -1.2702233261697842
+  },
+  {
+   "ln_tvl": 23.04505984210111,
+   "err": -1.2814254638654212
+  },
+  {
+   "ln_tvl": 18.85491055267906,
+   "err": -0.5358619492666961
+  },
+  {
+   "ln_tvl": 19.177042633860086,
+   "err": 2.2194858083090026
+  },
+  {
+   "ln_tvl": 16.853097860274872,
+   "err": 1.4025284381291634
+  },
+  {
+   "ln_tvl": 15.994931814724685,
+   "err": -1.2959639097015536
+  },
+  {
+   "ln_tvl": 17.6735781603147,
+   "err": -0.34515256559548746
+  },
+  {
+   "ln_tvl": 15.45091597728262,
+   "err": -1.1093476385145458
+  },
+  {
+   "ln_tvl": 17.272798817185567,
+   "err": 1.5426935859476814
+  },
+  {
+   "ln_tvl": 20.401506798814122,
+   "err": 0.4892134904265788
+  },
+  {
+   "ln_tvl": 15.886217690508422,
+   "err": -1.9726793943215863
+  },
+  {
+   "ln_tvl": 15.78121647154712,
+   "err": 1.4085046199794942
+  },
+  {
+   "ln_tvl": 16.19374370086897,
+   "err": 0.7597852465864108
+  },
+  {
+   "ln_tvl": 17.75105714170891,
+   "err": -1.862666325125117
+  },
+  {
+   "ln_tvl": 16.412337014150552,
+   "err": -1.0648762274326558
+  },
+  {
+   "ln_tvl": 17.848358066870563,
+   "err": 2.7209970647596293
+  },
+  {
+   "ln_tvl": 20.311543592727947,
+   "err": -1.2643786617497206
+  },
+  {
+   "ln_tvl": 17.775757395797715,
+   "err": -0.9456141823543227
+  },
+  {
+   "ln_tvl": 16.15796009917741,
+   "err": 0.4496442145985
+  },
+  {
+   "ln_tvl": 18.873398867167477,
+   "err": 0.9393091044900999
+  },
+  {
+   "ln_tvl": 18.188832365323336,
+   "err": 0.3252510550583487
+  },
+  {
+   "ln_tvl": 17.157124234201838,
+   "err": -1.531708894807501
+  },
+  {
+   "ln_tvl": 16.198675598907837,
+   "err": 1.792710707894111
+  },
+  {
+   "ln_tvl": 15.594989090920324,
+   "err": -0.8148897400322603
+  },
+  {
+   "ln_tvl": 17.812731568883994,
+   "err": 0.017735634327728178
+  },
+  {
+   "ln_tvl": 19.224615741688986,
+   "err": -6.7616256801884145
+  },
+  {
+   "ln_tvl": 16.380139017789826,
+   "err": 0.6969915681703949
+  },
+  {
+   "ln_tvl": 18.22158711093991,
+   "err": 0.27217395410883327
+  },
+  {
+   "ln_tvl": 16.277264746020446,
+   "err": -2.6496478015756093
+  },
+  {
+   "ln_tvl": 18.318420395583885,
+   "err": 2.160565458265097
+  },
+  {
+   "ln_tvl": 17.910345633198528,
+   "err": 0.06957834878115321
+  },
+  {
+   "ln_tvl": 15.929549159397965,
+   "err": -0.9393518654256372
+  }
+ ],
+ "census": {
+  "total": 758,
+  "has_token": 416,
+  "pre_token": 342,
+  "exchange": 42,
+  "bridge": 44,
+  "staking_product": 51,
+  "wrapped_btc": 4,
+  "wrapped_stablecoin": 2,
+  "versioned_name": 11,
+  "wrapped_name": 2,
+  "ranked": 189,
+  "ranked_screened": 186,
+  "watchlist_floor": [
+   "b14g",
+   "reti-pooling",
+   "saturn"
+  ],
+  "watchlist_total": 40,
+  "ranked_above_floor": 55,
+  "ranked_below_floor": 131
+ },
+ "validation": {
+  "metric": "median |ln(pred/mcap)|, lower is better",
+  "census": {
+   "pre_token": 342,
+   "has_token": 416,
+   "staking_product": 51,
+   "versioned_name": 11,
+   "bridge": 44,
+   "exchange": 42,
+   "wrapped_btc": 4,
+   "wrapped_name": 2,
+   "wrapped_stablecoin": 2,
+   "ranked": 186,
+   "watchlist_total": 40,
+   "watchlist_ranked": 37,
+   "watchlist_screened": [
+    "b14g",
+    "reti-pooling",
+    "saturn"
+   ],
+   "ranked_above_floor": 55,
+   "ranked_below_floor": 131
+  },
+  "comps": 128,
+  "comps_banded": 109,
+  "models": {
+   "starter flat x0.25": {
+    "cv_mean": 1.5914
+   },
+   "global median multiple": {
+    "cv_mean": 1.5816
+   },
+   "r3-family p128 blend 0.8": {
+    "cv_mean": 1.295,
+    "cv_sd": 0.2642,
+    "walk_forward_70_30": 1.059,
+    "walk_forward_60_40": 1.1301,
+    "blind_seed999": 1.569,
+    "blind_mean5": 1.4083,
+    "loo_med_abs_log": 1.3061,
+    "bootstrap_oob_median": 1.2769
+   },
+   "r3-family p128 grouped k=5": {
+    "cv_mean": 1.2881,
+    "cv_sd": 0.2591,
+    "walk_forward_70_30": 1.0723,
+    "walk_forward_60_40": 1.1391,
+    "blind_seed999": 1.394,
+    "blind_mean5": 1.3619,
+    "loo_med_abs_log": 1.3266,
+    "bootstrap_oob_median": 1.2664
+   },
+   "r3-family p128 curve only": {
+    "cv_mean": 1.2434,
+    "cv_sd": 0.2314,
+    "walk_forward_70_30": 1.2271,
+    "walk_forward_60_40": 1.0575,
+    "blind_seed999": 1.4195,
+    "blind_mean5": 1.4601,
+    "loo_med_abs_log": 1.2234,
+    "bootstrap_oob_median": 1.2957
+   },
+   "r3-family p128 ridge only": {
+    "cv_mean": 1.352,
+    "cv_sd": 0.219,
+    "walk_forward_70_30": 1.1051,
+    "walk_forward_60_40": 1.3582,
+    "blind_seed999": 1.5854,
+    "blind_mean5": 1.5186,
+    "loo_med_abs_log": 1.3892,
+    "bootstrap_oob_median": 1.4148
+   },
+   "r3-family p128 blend 0.8 k=3": {
+    "cv_mean": 1.3049
+   },
+   "r3-family p128 blend 0.8 k=10": {
+    "cv_mean": 1.2887
+   },
+   "r3-family p128 blend 0.6": {
+    "cv_mean": 1.3081
+   },
+   "r3-family p128 blend 0.7": {
+    "cv_mean": 1.3075
+   },
+   "r3-family p128 blend 0.9": {
+    "cv_mean": 1.2977
+   },
+   "r3-family p128 blend 1.0": {
+    "cv_mean": 1.2881
+   },
+   "age-curve p128 blend 0.8": {
+    "cv_mean": 1.3117,
+    "cv_sd": 0.2776,
+    "walk_forward_70_30": 1.4598,
+    "walk_forward_60_40": 1.2562,
+    "blind_seed999": 1.5636,
+    "blind_mean5": 1.4525,
+    "loo_med_abs_log": 1.3379,
+    "bootstrap_oob_median": 1.3031
+   },
+   "age-curve p128 grouped": {
+    "cv_mean": 1.3065,
+    "cv_sd": 0.2673,
+    "walk_forward_70_30": 1.6419,
+    "walk_forward_60_40": 1.3053,
+    "blind_seed999": 1.3895,
+    "blind_mean5": 1.4704,
+    "loo_med_abs_log": 1.3936,
+    "bootstrap_oob_median": 1.2885
+   },
+   "age-curve p128 curve only": {
+    "cv_mean": 1.2969,
+    "cv_sd": 0.2404,
+    "walk_forward_70_30": 1.6964,
+    "walk_forward_60_40": 1.2683,
+    "blind_seed999": 1.4242,
+    "blind_mean5": 1.4949,
+    "loo_med_abs_log": 1.2711,
+    "bootstrap_oob_median": 1.2959
+   },
+   "r3-family p109 blend 0.8": {
+    "cv_mean": 1.0718,
+    "cv_sd": 0.2132,
+    "walk_forward_70_30": 0.9373,
+    "walk_forward_60_40": 0.9059,
+    "blind_seed999": 1.066,
+    "blind_mean5": 1.1975,
+    "loo_med_abs_log": 1.028,
+    "bootstrap_oob_median": 1.1203
+   },
+   "r3-family p109 grouped": {
+    "cv_mean": 1.0521,
+    "cv_sd": 0.18,
+    "walk_forward_70_30": 1.0449,
+    "walk_forward_60_40": 0.983,
+    "blind_seed999": 1.1817,
+    "blind_mean5": 1.1993,
+    "loo_med_abs_log": 1.0924,
+    "bootstrap_oob_median": 1.1137
+   },
+   "r3-family p109 curve only": {
+    "cv_mean": 1.1489,
+    "cv_sd": 0.2145,
+    "walk_forward_70_30": 0.8958,
+    "walk_forward_60_40": 0.993,
+    "blind_seed999": 1.2667,
+    "blind_mean5": 1.2772,
+    "loo_med_abs_log": 1.1235,
+    "bootstrap_oob_median": 1.1722
+   },
+   "age-curve p109 blend 0.8": {
+    "cv_mean": 1.0906,
+    "cv_sd": 0.2231,
+    "walk_forward_70_30": 1.112,
+    "walk_forward_60_40": 0.8589,
+    "blind_seed999": 1.1216,
+    "blind_mean5": 1.2536,
+    "loo_med_abs_log": 1.0515,
+    "bootstrap_oob_median": 1.1333
+   }
+  },
+  "odds": {
+   "random": {
+    "n_train": 419,
+    "n_test": 226,
+    "base_rate": 0.4779,
+    "majority_rate": 0.5221,
+    "hit_rate": 0.6814,
+    "brier": 0.2201,
+    "base_brier": 0.2515,
+    "mean_predicted": 0.5398,
+    "observed": 0.4779,
+    "calibration": [
+     {
+      "lo": 0,
+      "hi": 0.5,
+      "n": 27,
+      "predicted": 0.206,
+      "observed": 0.2222
+     },
+     {
+      "lo": 0.5,
+      "hi": 1,
+      "n": 23,
+      "predicted": 0.4041,
+      "observed": 0.3478
+     },
+     {
+      "lo": 1,
+      "hi": 2,
+      "n": 67,
+      "predicted": 0.4,
+      "observed": 0.3881
+     },
+     {
+      "lo": 2,
+      "hi": 3,
+      "n": 44,
+      "predicted": 0.5637,
+      "observed": 0.5227
+     },
+     {
+      "lo": 3,
+      "hi": 5,
+      "n": 60,
+      "predicted": 0.8456,
+      "observed": 0.7
+     },
+     {
+      "lo": 5,
+      "hi": 99,
+      "n": 5,
+      "predicted": 0.9588,
+      "observed": 0.6
+     }
+    ]
+   },
+   "time": {
+    "n_train": 324,
+    "n_test": 321,
+    "base_rate": 0.3583,
+    "majority_rate": 0.6417,
+    "hit_rate": 0.6417,
+    "brier": 0.2786,
+    "base_brier": 0.3176,
+    "mean_predicted": 0.1292,
+    "observed": 0.3583,
+    "calibration": [
+     {
+      "lo": 0,
+      "hi": 0.5,
+      "n": 88,
+      "predicted": 0.0126,
+      "observed": 0.2614
+     },
+     {
+      "lo": 0.5,
+      "hi": 1,
+      "n": 73,
+      "predicted": 0.0706,
+      "observed": 0.3973
+     },
+     {
+      "lo": 1,
+      "hi": 2,
+      "n": 160,
+      "predicted": 0.22,
+      "observed": 0.3937
+     },
+     {
+      "lo": 2,
+      "hi": 3,
+      "n": 0,
+      "predicted": 0,
+      "observed": 0
+     },
+     {
+      "lo": 3,
+      "hi": 5,
+      "n": 0,
+      "predicted": 0,
+      "observed": 0
+     },
+     {
+      "lo": 5,
+      "hi": 99,
+      "n": 0,
+      "predicted": 0,
+      "observed": 0
+     }
+    ],
+    "cut": "2025-01-06"
+   },
+   "model": {
+    "hazards": [
+     0.9434,
+     0.05,
+     0.05,
+     0.8168,
+     0.189,
+     0.05
+    ],
+    "edges": [
+     0,
+     0.5,
+     1,
+     2,
+     3,
+     5
+    ],
+    "mults": {
+     "Leveraged Farming": 1.1655,
+     "Uncollateralized Lending": 0.883,
+     "Risk Curators": 0.5247,
+     "Lending": 1.3135,
+     "Cross Chain Bridge": 1.1946,
+     "Canonical Bridge": 1.1156,
+     "Staking Pool": 0.8645,
+     "Basis Trading": 1.3708,
+     "Onchain Capital Allocator": 0.7307,
+     "Dexs": 1.326,
+     "Launchpad": 1.2132,
+     "Derivatives": 0.9486,
+     "Yield": 1.1461,
+     "Farm": 0.9091,
+     "Synthetics": 1.202,
+     "RWA": 1.0512,
+     "Collateral Management": 1.173,
+     "Liquidity Manager": 0.9651,
+     "Chain": 0.8301,
+     "Bridge": 0.8796,
+     "Anchor BTC": 1.05,
+     "Restaking": 1.2726,
+     "Liquid Restaking": 1.0276,
+     "Liquid Staking": 0.8425,
+     "CEX": 0.5075,
+     "CDP": 0.9265,
+     "NFT Marketplace": 1.0575,
+     "Interest Rate Derivatives": 0.8824,
+     "Decentralized BTC": 0.8432,
+     "Decentralized AI": 1.1818,
+     "Yield Aggregator": 0.8674,
+     "Options": 1.3066,
+     "CeDeFi": 0.8915,
+     "Crypto Card Issuer": 1.1755,
+     "OTC Marketplace": 0.8822,
+     "Insurance": 0.8851,
+     "Token Locker": 1.2185,
+     "Dual-Token Stablecoin": 0.822,
+     "Restaked BTC": 0.9169,
+     "Stablecoin Issuer": 1.1567,
+     "Governance Incentives": 0.9638,
+     "AI Agents": 1.2391,
+     "Prediction Market": 0.848,
+     "Privacy": 1.0858,
+     "Options Vault": 0.8819,
+     "Stablecoin Wrapper": 0.8138,
+     "Indexes": 1.1708,
+     "Payments": 1.0866,
+     "CDP Manager": 1.0642,
+     "Collateral Markets": 0.8354,
+     "Reserve Currency": 1.0494,
+     "DOR": 1.1432
+    },
+    "loglik": -414.4,
+    "n_dated": 645,
+    "n_token": 327,
+    "weibull": {
+     "k": 0.5,
+     "theta": 3.1,
+     "loglik": -416.23
+    }
+   }
+  },
+  "ablation": [
+   {
+    "step": "flat multiple TVL x 0.25 (starter)",
+    "geo": 4.91,
+    "within3": 0.336
+   },
+   {
+    "step": "global median multiple",
+    "geo": 4.86,
+    "within3": 0.352
+   },
+   {
+    "step": "log-log curve only",
+    "geo": 3.4,
+    "within3": 0.422
+   },
+   {
+    "step": "curve + grouped shrunk medians",
+    "geo": 3.77,
+    "within3": 0.445
+   },
+   {
+    "step": "curve + grouped + ridge-LAD blend 0.8/0.2 (this entry)",
+    "geo": 3.69,
+    "within3": 0.438
+   },
+   {
+    "step": "ridge-LAD only",
+    "geo": 4.01,
+    "within3": 0.414
+   }
+  ]
+ }
+}

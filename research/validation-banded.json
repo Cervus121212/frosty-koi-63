@@ -1,0 +1,42 @@
+{
+ "blend": {
+  "cv_mean": 1.2794,
+  "cv_sd": 0.2594,
+  "walk_forward_70_30": 1.2739,
+  "walk_forward_60_40": 1.2713,
+  "blind_seed999": 1.3554,
+  "blind_mean5": 1.3472,
+  "loo_med_abs_log": 1.2731,
+  "bootstrap_oob_median": 1.3125
+ },
+ "grouped": {
+  "cv_mean": 1.2576,
+  "cv_sd": 0.2647,
+  "walk_forward_70_30": 1.2993,
+  "walk_forward_60_40": 1.138,
+  "blind_seed999": 1.2616,
+  "blind_mean5": 1.3068,
+  "loo_med_abs_log": 1.2201,
+  "bootstrap_oob_median": 1.2733
+ },
+ "curve": {
+  "cv_mean": 1.337,
+  "cv_sd": 0.1801,
+  "walk_forward_70_30": 1.2325,
+  "walk_forward_60_40": 1.2974,
+  "blind_seed999": 1.044,
+  "blind_mean5": 1.2858,
+  "loo_med_abs_log": 1.367,
+  "bootstrap_oob_median": 1.3657
+ },
+ "ridge": {
+  "cv_mean": 1.3934,
+  "cv_sd": 0.216,
+  "walk_forward_70_30": 1.4161,
+  "walk_forward_60_40": 1.4962,
+  "blind_seed999": 1.6587,
+  "blind_mean5": 1.5307,
+  "loo_med_abs_log": 1.4439,
+  "bootstrap_oob_median": 1.3941
+ }
+}

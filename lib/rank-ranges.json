@@ -1,0 +1,758 @@
+{
+"3f": [
+67,
+160
+],
+"3jane-lending": [
+85,
+153
+],
+"9summits": [
+71,
+157
+],
+"abstract": [
+69,
+151
+],
+"aegis-yusd": [
+11,
+50
+],
+"aftermath-aflp": [
+137,
+185
+],
+"agni-finance": [
+21,
+184
+],
+"agua": [
+126,
+184
+],
+"alphagrowth": [
+121,
+182
+],
+"anemoy-capital": [
+28,
+92
+],
+"antarctic": [
+64,
+141
+],
+"anthias-labs": [
+150,
+188
+],
+"apex-omni": [
+29,
+92
+],
+"arcus-perps": [
+31,
+81
+],
+"armitage-by-wintermute": [
+44,
+127
+],
+"arrakis-modular": [
+9,
+117
+],
+"august-digital": [
+80,
+186
+],
+"avant-aveth": [
+88,
+168
+],
+"avant-avusd": [
+34,
+111
+],
+"axis": [
+14,
+55
+],
+"azverse-perps": [
+27,
+86
+],
+"bend": [
+100,
+171
+],
+"bima-cdp": [
+102,
+174
+],
+"binaryx-platform": [
+95,
+181
+],
+"bisonfi": [
+32,
+165
+],
+"bitfi-basis": [
+1,
+13
+],
+"bittensor-dtao": [
+1,
+60
+],
+"block-analitica": [
+101,
+171
+],
+"boros": [
+97,
+160
+],
+"bouncebit-prime": [
+35,
+100
+],
+"btcfi-cdp": [
+149,
+187
+],
+"bucket-cdp": [
+76,
+189
+],
+"bulk": [
+105,
+172
+],
+"byreal": [
+38,
+169
+],
+"cian-yield-layer": [
+9,
+71
+],
+"clearstar": [
+15,
+61
+],
+"communityv3": [
+38,
+169
+],
+"current": [
+54,
+135
+],
+"curvance": [
+18,
+79
+],
+"d2-finance": [
+93,
+170
+],
+"damm-capital": [
+142,
+187
+],
+"decibel": [
+43,
+106
+],
+"defa-by-invoicemate": [
+106,
+164
+],
+"defi-saver-asset-management": [
+6,
+21
+],
+"defindex": [
+102,
+178
+],
+"doppler-finance": [
+21,
+49
+],
+"drakewell": [
+28,
+86
+],
+"ember": [
+15,
+51
+],
+"estate-protocol": [
+55,
+119
+],
+"exponent-risk-tranching": [
+114,
+179
+],
+"exponent-strategy-vaults": [
+134,
+186
+],
+"exponent-yield-exchange": [
+42,
+118
+],
+"extended-perps": [
+11,
+38
+],
+"felix-cdp": [
+82,
+159
+],
+"felix-vaults": [
+78,
+152
+],
+"figure-markets-exchange": [
+20,
+41
+],
+"figure-markets-prime": [
+13,
+68
+],
+"fira": [
+79,
+166
+],
+"firelight": [
+40,
+81
+],
+"flowdesk": [
+71,
+159
+],
+"flux-finance": [
+32,
+182
+],
+"fluxion-network": [
+52,
+178
+],
+"flying-tulip-ftusd": [
+156,
+189
+],
+"fstswap": [
+18,
+185
+],
+"galaxy-curation": [
+37,
+134
+],
+"gami-labs": [
+61,
+151
+],
+"gamma-research": [
+102,
+171
+],
+"gauntlet": [
+3,
+8
+],
+"gmx-solana": [
+45,
+108
+],
+"goonfi": [
+73,
+187
+],
+"goose": [
+63,
+121
+],
+"granite": [
+117,
+177
+],
+"growihf": [
+87,
+162
+],
+"hakutora": [
+76,
+152
+],
+"hertzflow": [
+93,
+168
+],
+"hive-protocol": [
+7,
+46
+],
+"hylo-protocol": [
+60,
+129
+],
+"hyperbeat-earn": [
+88,
+168
+],
+"hyperithm": [
+8,
+38
+],
+"icarus-cl": [
+60,
+182
+],
+"infinifi": [
+32,
+114
+],
+"ipor-fusion": [
+41,
+127
+],
+"k3-capital": [
+9,
+42
+],
+"katana-dex": [
+30,
+189
+],
+"katana-pre-launch": [
+71,
+120
+],
+"kava-mint": [
+110,
+180
+],
+"keyrock": [
+46,
+120
+],
+"lagoon": [
+20,
+82
+],
+"lightning-network": [
+13,
+45
+],
+"liminal-basis": [
+21,
+78
+],
+"lofty": [
+7,
+168
+],
+"loopscale-curation": [
+144,
+186
+],
+"loopscale-lending": [
+29,
+100
+],
+"lulo": [
+75,
+163
+],
+"makina": [
+74,
+164
+],
+"manifest-trade": [
+41,
+183
+],
+"manta-cedefi": [
+25,
+79
+],
+"marginfi-lending": [
+39,
+185
+],
+"mellow-core": [
+23,
+97
+],
+"metalx-swap": [
+37,
+188
+],
+"mev-capital": [
+92,
+167
+],
+"mezo-earn": [
+58,
+104
+],
+"mezzanine": [
+142,
+187
+],
+"monarq": [
+148,
+188
+],
+"monolith-market": [
+122,
+189
+],
+"mystic-finance-lending": [
+52,
+128
+],
+"nado-spot": [
+7,
+111
+],
+"native-credit-pool": [
+70,
+156
+],
+"nemo-trading": [
+97,
+169
+],
+"neutral-trade": [
+88,
+162
+],
+"noble": [
+14,
+55
+],
+"nonce-capital": [
+8,
+49
+],
+"noon": [
+46,
+129
+],
+"nucleus": [
+119,
+185
+],
+"nuva": [
+74,
+188
+],
+"onre": [
+5,
+19
+],
+"opentrade": [
+6,
+22
+],
+"origami-finance": [
+53,
+152
+],
+"paimon": [
+69,
+134
+],
+"pangolins": [
+137,
+184
+],
+"perena-vaults": [
+113,
+179
+],
+"phoenix-perp": [
+56,
+128
+],
+"plasma-one": [
+47,
+81
+],
+"plasma-saving-vaults": [
+78,
+158
+],
+"plume-vaults": [
+6,
+21
+],
+"polymarket-international": [
+1,
+158
+],
+"predict-fun": [
+7,
+142
+],
+"project-0": [
+44,
+116
+],
+"project-x": [
+12,
+122
+],
+"r25": [
+15,
+49
+],
+"re7-labs": [
+35,
+103
+],
+"reya-perps": [
+65,
+134
+],
+"rif-on-chain": [
+104,
+185
+],
+"risex": [
+66,
+137
+],
+"rockawayx": [
+16,
+65
+],
+"rocksolid-network": [
+74,
+159
+],
+"sentora-curator": [
+1,
+6
+],
+"set-protocol": [
+44,
+165
+],
+"sharpbyte-capital": [
+124,
+180
+],
+"shift-defi": [
+35,
+184
+],
+"snuggle": [
+59,
+182
+],
+"solv-strategies": [
+48,
+130
+],
+"stablehodl": [
+114,
+179
+],
+"steakhouse-financial": [
+1,
+6
+],
+"steer-protocol": [
+19,
+187
+],
+"stellar-amm": [
+69,
+184
+],
+"stellar-defi-hub": [
+41,
+89
+],
+"stellar-dex": [
+27,
+154
+],
+"strata-markets": [
+85,
+163
+],
+"strato-cdp": [
+128,
+185
+],
+"superearn": [
+110,
+177
+],
+"swan-dao": [
+130,
+188
+],
+"sygnum-fiusd-liquidity-fund": [
+61,
+120
+],
+"symbiotic": [
+12,
+43
+],
+"syncswap": [
+34,
+187
+],
+"syntetika": [
+116,
+176
+],
+"syntropia": [
+103,
+177
+],
+"t3tris-finance": [
+138,
+187
+],
+"tau-labs": [
+101,
+175
+],
+"templar-lending": [
+57,
+141
+],
+"temple": [
+69,
+184
+],
+"tempo-stablecoin-dex": [
+35,
+166
+],
+"tessera-v": [
+48,
+176
+],
+"theo-network-thbill": [
+42,
+184
+],
+"theo-network-thusd": [
+19,
+62
+],
+"tori-finance": [
+13,
+58
+],
+"tulipa-capital": [
+31,
+101
+],
+"turboflow-perps": [
+71,
+151
+],
+"tydro": [
+22,
+81
+],
+"ultrayield-curator": [
+43,
+119
+],
+"ultrayield-vaults": [
+101,
+174
+],
+"upshift": [
+8,
+53
+],
+"usdd": [
+2,
+26
+],
+"valos": [
+26,
+69
+],
+"vault-street": [
+122,
+176
+],
+"veda": [
+2,
+16
+],
+"vena-finance": [
+132,
+183
+],
+"vesu": [
+103,
+171
+],
+"vfat.io": [
+61,
+167
+],
+"waterline": [
+97,
+166
+],
+"xion-finance": [
+41,
+104
+],
+"xrpl-dex": [
+15,
+141
+],
+"y10k-capital": [
+85,
+162
+],
+"yieldfi": [
+94,
+176
+],
+"yuzu-money": [
+38,
+115
+],
+"zoo-finance": [
+50,
+134
+],
+"b14g": [
+13,
+93
+],
+"reti-pooling": [
+53,
+150
+],
+"saturn": [
+26,
+69
+]
+}

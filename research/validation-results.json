@@ -1,0 +1,409 @@
+{
+ "metric": "median |ln(pred/mcap)|, lower is better",
+ "census": {
+  "pre_token": 342,
+  "has_token": 416,
+  "staking_product": 51,
+  "versioned_name": 11,
+  "bridge": 44,
+  "exchange": 42,
+  "wrapped_btc": 4,
+  "wrapped_name": 2,
+  "wrapped_stablecoin": 2,
+  "ranked": 186,
+  "watchlist_total": 40,
+  "watchlist_ranked": 37,
+  "watchlist_screened": [
+   "b14g",
+   "reti-pooling",
+   "saturn"
+  ],
+  "ranked_above_floor": 55,
+  "ranked_below_floor": 131
+ },
+ "comps": 128,
+ "comps_banded": 109,
+ "models": {
+  "starter flat x0.25": {
+   "cv_mean": 1.5914
+  },
+  "global median multiple": {
+   "cv_mean": 1.5816
+  },
+  "r3-family p128 blend 0.8": {
+   "cv_mean": 1.295,
+   "cv_sd": 0.2642,
+   "walk_forward_70_30": 1.059,
+   "walk_forward_60_40": 1.1301,
+   "blind_seed999": 1.569,
+   "blind_mean5": 1.4083,
+   "loo_med_abs_log": 1.3061,
+   "bootstrap_oob_median": 1.2769
+  },
+  "r3-family p128 grouped k=5": {
+   "cv_mean": 1.2881,
+   "cv_sd": 0.2591,
+   "walk_forward_70_30": 1.0723,
+   "walk_forward_60_40": 1.1391,
+   "blind_seed999": 1.394,
+   "blind_mean5": 1.3619,
+   "loo_med_abs_log": 1.3266,
+   "bootstrap_oob_median": 1.2664
+  },
+  "r3-family p128 curve only": {
+   "cv_mean": 1.2434,
+   "cv_sd": 0.2314,
+   "walk_forward_70_30": 1.2271,
+   "walk_forward_60_40": 1.0575,
+   "blind_seed999": 1.4195,
+   "blind_mean5": 1.4601,
+   "loo_med_abs_log": 1.2234,
+   "bootstrap_oob_median": 1.2957
+  },
+  "r3-family p128 ridge only": {
+   "cv_mean": 1.352,
+   "cv_sd": 0.219,
+   "walk_forward_70_30": 1.1051,
+   "walk_forward_60_40": 1.3582,
+   "blind_seed999": 1.5854,
+   "blind_mean5": 1.5186,
+   "loo_med_abs_log": 1.3892,
+   "bootstrap_oob_median": 1.4148
+  },
+  "r3-family p128 blend 0.8 k=3": {
+   "cv_mean": 1.3049
+  },
+  "r3-family p128 blend 0.8 k=10": {
+   "cv_mean": 1.2887
+  },
+  "r3-family p128 blend 0.6": {
+   "cv_mean": 1.3081
+  },
+  "r3-family p128 blend 0.7": {
+   "cv_mean": 1.3075
+  },
+  "r3-family p128 blend 0.9": {
+   "cv_mean": 1.2977
+  },
+  "r3-family p128 blend 1.0": {
+   "cv_mean": 1.2881
+  },
+  "age-curve p128 blend 0.8": {
+   "cv_mean": 1.3117,
+   "cv_sd": 0.2776,
+   "walk_forward_70_30": 1.4598,
+   "walk_forward_60_40": 1.2562,
+   "blind_seed999": 1.5636,
+   "blind_mean5": 1.4525,
+   "loo_med_abs_log": 1.3379,
+   "bootstrap_oob_median": 1.3031
+  },
+  "age-curve p128 grouped": {
+   "cv_mean": 1.3065,
+   "cv_sd": 0.2673,
+   "walk_forward_70_30": 1.6419,
+   "walk_forward_60_40": 1.3053,
+   "blind_seed999": 1.3895,
+   "blind_mean5": 1.4704,
+   "loo_med_abs_log": 1.3936,
+   "bootstrap_oob_median": 1.2885
+  },
+  "age-curve p128 curve only": {
+   "cv_mean": 1.2969,
+   "cv_sd": 0.2404,
+   "walk_forward_70_30": 1.6964,
+   "walk_forward_60_40": 1.2683,
+   "blind_seed999": 1.4242,
+   "blind_mean5": 1.4949,
+   "loo_med_abs_log": 1.2711,
+   "bootstrap_oob_median": 1.2959
+  },
+  "r3-family p109 blend 0.8": {
+   "cv_mean": 1.0718,
+   "cv_sd": 0.2132,
+   "walk_forward_70_30": 0.9373,
+   "walk_forward_60_40": 0.9059,
+   "blind_seed999": 1.066,
+   "blind_mean5": 1.1975,
+   "loo_med_abs_log": 1.028,
+   "bootstrap_oob_median": 1.1203
+  },
+  "r3-family p109 grouped": {
+   "cv_mean": 1.0521,
+   "cv_sd": 0.18,
+   "walk_forward_70_30": 1.0449,
+   "walk_forward_60_40": 0.983,
+   "blind_seed999": 1.1817,
+   "blind_mean5": 1.1993,
+   "loo_med_abs_log": 1.0924,
+   "bootstrap_oob_median": 1.1137
+  },
+  "r3-family p109 curve only": {
+   "cv_mean": 1.1489,
+   "cv_sd": 0.2145,
+   "walk_forward_70_30": 0.8958,
+   "walk_forward_60_40": 0.993,
+   "blind_seed999": 1.2667,
+   "blind_mean5": 1.2772,
+   "loo_med_abs_log": 1.1235,
+   "bootstrap_oob_median": 1.1722
+  },
+  "age-curve p109 blend 0.8": {
+   "cv_mean": 1.0906,
+   "cv_sd": 0.2231,
+   "walk_forward_70_30": 1.112,
+   "walk_forward_60_40": 0.8589,
+   "blind_seed999": 1.1216,
+   "blind_mean5": 1.2536,
+   "loo_med_abs_log": 1.0515,
+   "bootstrap_oob_median": 1.1333
+  }
+ },
+ "odds": {
+  "random": {
+   "n_train": 419,
+   "n_test": 226,
+   "base_rate": 0.4779,
+   "majority_rate": 0.5221,
+   "hit_rate": 0.6814,
+   "brier": 0.2201,
+   "base_brier": 0.2515,
+   "mean_predicted": 0.5398,
+   "observed": 0.4779,
+   "calibration": [
+    {
+     "lo": 0,
+     "hi": 0.5,
+     "n": 27,
+     "predicted": 0.206,
+     "observed": 0.2222
+    },
+    {
+     "lo": 0.5,
+     "hi": 1,
+     "n": 23,
+     "predicted": 0.4041,
+     "observed": 0.3478
+    },
+    {
+     "lo": 1,
+     "hi": 2,
+     "n": 67,
+     "predicted": 0.4,
+     "observed": 0.3881
+    },
+    {
+     "lo": 2,
+     "hi": 3,
+     "n": 44,
+     "predicted": 0.5637,
+     "observed": 0.5227
+    },
+    {
+     "lo": 3,
+     "hi": 5,
+     "n": 60,
+     "predicted": 0.8456,
+     "observed": 0.7
+    },
+    {
+     "lo": 5,
+     "hi": 99,
+     "n": 5,
+     "predicted": 0.9588,
+     "observed": 0.6
+    }
+   ]
+  },
+  "time": {
+   "n_train": 324,
+   "n_test": 321,
+   "base_rate": 0.3583,
+   "majority_rate": 0.6417,
+   "hit_rate": 0.6417,
+   "brier": 0.2786,
+   "base_brier": 0.3176,
+   "mean_predicted": 0.1292,
+   "observed": 0.3583,
+   "calibration": [
+    {
+     "lo": 0,
+     "hi": 0.5,
+     "n": 88,
+     "predicted": 0.0126,
+     "observed": 0.2614
+    },
+    {
+     "lo": 0.5,
+     "hi": 1,
+     "n": 73,
+     "predicted": 0.0706,
+     "observed": 0.3973
+    },
+    {
+     "lo": 1,
+     "hi": 2,
+     "n": 160,
+     "predicted": 0.22,
+     "observed": 0.3937
+    },
+    {
+     "lo": 2,
+     "hi": 3,
+     "n": 0,
+     "predicted": 0,
+     "observed": 0
+    },
+    {
+     "lo": 3,
+     "hi": 5,
+     "n": 0,
+     "predicted": 0,
+     "observed": 0
+    },
+    {
+     "lo": 5,
+     "hi": 99,
+     "n": 0,
+     "predicted": 0,
+     "observed": 0
+    }
+   ],
+   "cut": "2025-01-06"
+  },
+  "model": {
+   "hazards": [
+    0.9434,
+    0.05,
+    0.05,
+    0.8168,
+    0.189,
+    0.05
+   ],
+   "edges": [
+    0,
+    0.5,
+    1,
+    2,
+    3,
+    5
+   ],
+   "mults": {
+    "Leveraged Farming": 1.1655,
+    "Uncollateralized Lending": 0.883,
+    "Risk Curators": 0.5247,
+    "Lending": 1.3135,
+    "Cross Chain Bridge": 1.1946,
+    "Canonical Bridge": 1.1156,
+    "Staking Pool": 0.8645,
+    "Basis Trading": 1.3708,
+    "Onchain Capital Allocator": 0.7307,
+    "Dexs": 1.326,
+    "Launchpad": 1.2132,
+    "Derivatives": 0.9486,
+    "Yield": 1.1461,
+    "Farm": 0.9091,
+    "Synthetics": 1.202,
+    "RWA": 1.0512,
+    "Collateral Management": 1.173,
+    "Liquidity Manager": 0.9651,
+    "Chain": 0.8301,
+    "Bridge": 0.8796,
+    "Anchor BTC": 1.05,
+    "Restaking": 1.2726,
+    "Liquid Restaking": 1.0276,
+    "Liquid Staking": 0.8425,
+    "CEX": 0.5075,
+    "CDP": 0.9265,
+    "NFT Marketplace": 1.0575,
+    "Interest Rate Derivatives": 0.8824,
+    "Decentralized BTC": 0.8432,
+    "Decentralized AI": 1.1818,
+    "Yield Aggregator": 0.8674,
+    "Options": 1.3066,
+    "CeDeFi": 0.8915,
+    "Crypto Card Issuer": 1.1755,
+    "OTC Marketplace": 0.8822,
+    "Insurance": 0.8851,
+    "Token Locker": 1.2185,
+    "Dual-Token Stablecoin": 0.822,
+    "Restaked BTC": 0.9169,
+    "Stablecoin Issuer": 1.1567,
+    "Governance Incentives": 0.9638,
+    "AI Agents": 1.2391,
+    "Prediction Market": 0.848,
+    "Privacy": 1.0858,
+    "Options Vault": 0.8819,
+    "Stablecoin Wrapper": 0.8138,
+    "Indexes": 1.1708,
+    "Payments": 1.0866,
+    "CDP Manager": 1.0642,
+    "Collateral Markets": 0.8354,
+    "Reserve Currency": 1.0494,
+    "DOR": 1.1432
+   },
+   "loglik": -414.4,
+   "n_dated": 645,
+   "n_token": 327,
+   "weibull": {
+    "k": 0.5,
+    "theta": 3.1,
+    "loglik": -416.23
+   }
+  }
+ },
+ "ablation": [
+  {
+   "step": "flat multiple TVL x 0.25 (starter)",
+   "geo": 4.91,
+   "within3": 0.336
+  },
+  {
+   "step": "global median multiple",
+   "geo": 4.86,
+   "within3": 0.352
+  },
+  {
+   "step": "log-log curve only",
+   "geo": 3.4,
+   "within3": 0.422
+  },
+  {
+   "step": "curve + grouped shrunk medians",
+   "geo": 3.77,
+   "within3": 0.445
+  },
+  {
+   "step": "curve + grouped + ridge-LAD blend 0.8/0.2 (this entry)",
+   "geo": 3.69,
+   "within3": 0.438
+  },
+  {
+   "step": "ridge-LAD only",
+   "geo": 4.01,
+   "within3": 0.414
+  }
+ ],
+ "baselines": {
+  "starter flat TVL x 0.25": {
+   "cv_mean": 1.5503,
+   "cv_sd": 0.259,
+   "walk_forward_70_30": 1.3945,
+   "walk_forward_60_40": 1.4621,
+   "blind_seed999": 1.3873,
+   "blind_mean5": 1.526,
+   "loo_med_abs_log": 1.5914,
+   "bootstrap_oob_median": 1.6017
+  },
+  "old median-multiple (radar-2)": {
+   "cv_mean": 1.6727,
+   "cv_sd": 0.2971,
+   "walk_forward_70_30": 1.3835,
+   "walk_forward_60_40": 1.7423,
+   "blind_seed999": 1.3939,
+   "blind_mean5": 1.5807,
+   "loo_med_abs_log": 1.7187,
+   "bootstrap_oob_median": 1.6606
+  }
+ }
+}
